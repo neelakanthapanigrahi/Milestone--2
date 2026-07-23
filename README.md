@@ -5,7 +5,7 @@ The **Athlete Performance Hub** is a biomechanical injury prevention and trainin
 
 ---
 
-## 🚀 Key Features in Milestone 2
+## Key Features in Milestone 2
 
 ### 1. Biomechanical Video Analysis & Kinematics Overlays
 * **Real-time Overlays**: Renders skeletal joint connections dynamically on a canvas over the video player using browser-based tracking frames.
@@ -26,23 +26,23 @@ The **Athlete Performance Hub** is a biomechanical injury prevention and trainin
 * **Graceful Missing-File Handler**: If the database record exists but physical files are missing (orphaned records), the system cleans up the database entry without throwing a 500 server crash.
 * **Instant React UI Sync**: Filters out the deleted video immediately from the UI state without a page refresh, and auto-selects the next available video (or shows a placeholder).
 
-### 🏋 3. Sized Training Load Form & RPE Alignment
+###  3. Sized Training Load Form & RPE Alignment
 * **Overflow Protection**: Resolved styling issues where the RPE Rating (1–10) dropdown broke out of form containers on narrow layouts.
 * **Responsive Layouts**: Designed form fields using CSS Grid (`.form-row` and `.form-group`) that automatically collapse to a single column on mobile screen sizes (< 600px).
 * **Dropdown Option Legibility**: Styled dropdown `<option>` tags (`#12161f`) to provide maximum readability against dark theme backgrounds.
 
-### 🩹 4. Standardized Injury Module (Injury Records)
+###  4. Standardized Injury Module (Injury Records)
 * **Standardized Terminology**: Replaced all obsolete Phase 1 references to "Trauma Logs" with professional, user-friendly labels (**Injury Records**).
 * **Injury Log Grid**: Tracks Injury Type, Affected Body Part, Severity (Low, Medium, High), Recovery Status (Active, Rehab, Recovered), and clinical assessment notes.
 
-### 🔑 5. Simplified Auth & Instant Login
+###  5. Simplified Auth & Instant Login
 * **Frictionless Signup**: Newly created accounts default to `is_verified = True` for instant login capability without requiring manual token database validation.
 * **Password Validation**: Relaxed constraints to a standard minimum of 6 characters, eliminating complex regex validation blocks while signing up.
 * **CORS Wildcard Mapping**: Confirmed cross-origin requests succeed on any local development port (`3000`, `5173`, `5174`, etc.).
 
 ---
 
-## 📁 Clean Workspace Directory Structure
+##  Clean Workspace Directory Structure
 
 ```text
 C:\Users\neela\OneDrive\Documents\code
