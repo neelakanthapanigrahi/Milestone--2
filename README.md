@@ -76,7 +76,7 @@ The project uses SQLAlchemy ORM to manage data. When the FastAPI application sta
 Users Table: email, full_name, role, hashed_password, is_verified, verification_token, reset_token, refresh_token, last_login.
 Athletes Table: date_of_birth, height_cm, weight_kg, sport, bio.
 Videos Table: title, description, file_path, status, dataset_source, uploaded_at, skeletal_data (JSON frames), movement_score, analysis_summary.
-📡 API Endpoints
+ API Endpoints
 Authentication
 POST /api/auth/register - Create user profile (default is_verified=True, password min 6 chars)
 POST /api/auth/login - OAuth2 login yielding JWT token
