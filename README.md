@@ -17,7 +17,7 @@ The **Athlete Performance Hub** is a biomechanical injury prevention and trainin
 * **Auto-Polling Mechanism**: Auto-polls the processing status every 3 seconds for newly uploaded video clips until analysis is complete.
 * **Interactive Player Actions**: Added a `▶ Play & Analyze` button on every uploaded clip to launch playback and analytics overlays instantly.
 
-### 🗑 2. Video Deletion & Graceful Orphaned File Cleanup
+###  2. Video Deletion & Graceful Orphaned File Cleanup
 * **Permissions Control**: Athletes can delete their own videos, while coaches/physiotherapists/admins can delete any video records in the registry.
 * **Purge Operations**: Deletion permanently deletes:
   * The database entry.
